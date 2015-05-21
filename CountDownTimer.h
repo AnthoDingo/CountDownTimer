@@ -26,6 +26,7 @@ class CountDownTimer
 		  _micro < time ? time = _micro : time += duration; // check to see if micros() has rolled over, if not, then increment "time" by duration
 		}
 	  }
+	  if(Paused) time += micros();
 	  return !Stop; // return the state of the timer
 	}
 
