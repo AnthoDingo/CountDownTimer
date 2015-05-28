@@ -1,4 +1,3 @@
-#include "Arduino.h"
 #include "CountDownTimer.h"
 
 CountDownTimer::CountDownTimer(){}
